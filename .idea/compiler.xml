@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../ProgramDevs/gradle-9.7.1/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/2.6.2/57e6a7f5d35edce0f92a270a816a054bbed49a36/spring-boot-configuration-processor-2.6.2.jar" />
+          <entry name="$PROJECT_DIR$/../../ProgramDevs/gradle-9.7.1/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.16/6dc192c7f93ec1853f70d59d8a6dcf94eb42866/lombok-1.18.16.jar" />
+        </processorPath>
+        <module name="line-bot-sdk-java.line-bot-model.main" />
+        <module name="line-bot-sdk-java.line-bot-parser.main" />
+        <module name="line-bot-sdk-java.sample-spring-boot-echo.main" />
+        <module name="line-bot-sdk-java.sample-spring-boot-echo-kotlin.main" />
+        <module name="line-bot-sdk-java.line-bot-cli.main" />
+        <module name="line-bot-sdk-java.line-bot-api-client.main" />
+        <module name="line-bot-sdk-java.line-bot-api-client.integrationTest" />
+        <module name="line-bot-sdk-java.line-bot-servlet.main" />
+        <module name="line-bot-sdk-java.line-bot-spring-boot.main" />
+        <module name="line-bot-sdk-java.sample-manage-audience.main" />
+        <module name="line-bot-sdk-java.sample-spring-boot-kitchensink.main" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../ProgramDevs/gradle-9.7.1/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.16/6dc192c7f93ec1853f70d59d8a6dcf94eb42866/lombok-1.18.16.jar" />
+        </processorPath>
+        <module name="line-bot-sdk-java.sample-spring-boot-echo-kotlin.test" />
+        <module name="line-bot-sdk-java.sample-manage-audience.test" />
+        <module name="line-bot-sdk-java.sample-spring-boot-kitchensink.test" />
+        <module name="line-bot-sdk-java.line-bot-cli.test" />
+        <module name="line-bot-sdk-java.line-bot-model.test" />
+        <module name="line-bot-sdk-java.line-bot-parser.test" />
+        <module name="line-bot-sdk-java.sample-spring-boot-echo.test" />
+        <module name="line-bot-sdk-java.line-bot-spring-boot.test" />
+        <module name="line-bot-sdk-java.line-bot-api-client.test" />
+        <module name="line-bot-sdk-java.line-bot-servlet.test" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="line-bot-sdk-java.line-bot-api-client.main" options="-Xlint:all -Xlint:deprecation -Werror -Xlint:-processing -parameters" />
+      <module name="line-bot-sdk-java.line-bot-cli" options="-parameters" />
+      <module name="line-bot-sdk-java.line-bot-cli.main" options="-Xlint:all -Xlint:deprecation -Werror -Xlint:-processing -parameters" />
+      <module name="line-bot-sdk-java.line-bot-cli.test" options="-parameters" />
+      <module name="line-bot-sdk-java.line-bot-model.main" options="-Xlint:all -Xlint:deprecation -Werror -Xlint:-processing -parameters" />
+      <module name="line-bot-sdk-java.line-bot-parser.main" options="-Xlint:all -Xlint:deprecation -Werror -Xlint:-processing -parameters" />
+      <module name="line-bot-sdk-java.line-bot-servlet.main" options="-Xlint:all -Xlint:deprecation -Werror -Xlint:-processing -parameters" />
+      <module name="line-bot-sdk-java.line-bot-spring-boot.main" options="-Xlint:all -Xlint:deprecation -Werror -Xlint:-processing -parameters" />
+      <module name="line-bot-sdk-java.sample-manage-audience" options="-parameters" />
+      <module name="line-bot-sdk-java.sample-manage-audience.main" options="-Xlint:all -Xlint:deprecation -Werror -Xlint:-processing -parameters" />
+      <module name="line-bot-sdk-java.sample-manage-audience.test" options="-parameters" />
+      <module name="line-bot-sdk-java.sample-spring-boot-echo" options="-parameters" />
+      <module name="line-bot-sdk-java.sample-spring-boot-echo-kotlin" options="-parameters" />
+      <module name="line-bot-sdk-java.sample-spring-boot-echo-kotlin.main" options="-Xlint:all -Xlint:deprecation -Werror -Xlint:-processing -parameters" />
+      <module name="line-bot-sdk-java.sample-spring-boot-echo-kotlin.test" options="-parameters" />
+      <module name="line-bot-sdk-java.sample-spring-boot-echo.main" options="-Xlint:all -Xlint:deprecation -Werror -Xlint:-processing -parameters" />
+      <module name="line-bot-sdk-java.sample-spring-boot-echo.test" options="-parameters" />
+      <module name="line-bot-sdk-java.sample-spring-boot-kitchensink" options="-parameters" />
+      <module name="line-bot-sdk-java.sample-spring-boot-kitchensink.main" options="-Xlint:all -Xlint:deprecation -Werror -Xlint:-processing -parameters" />
+      <module name="line-bot-sdk-java.sample-spring-boot-kitchensink.test" options="-parameters" />
+    </option>
+  </component>
+</project>

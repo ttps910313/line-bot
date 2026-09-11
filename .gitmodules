@@ -1,0 +1,3 @@
+[submodule "line-bot-sdk-java"]
+	path = line-bot-sdk-java
+	url = https://github.com/line/line-bot-sdk-java

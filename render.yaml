@@ -1,0 +1,16 @@
+services:
+- type: web
+  name: line-bot-java
+  env: docker
+  dockerContext: ./line-bot-sdk-java
+  plan: free
+  autoDeploy: false
+  envVars:
+  - key: CHANNEL_TOKEN
+    sync: false
+  - key: CHANNEL_SECRET
+    sync: false
+  - key: SAMPLE_FOLDER
+    value: sample-spring-boot-echo
+#     value: sample-spring-boot-echo-kotlin
+#     value: sample-spring-boot-kitchensink
