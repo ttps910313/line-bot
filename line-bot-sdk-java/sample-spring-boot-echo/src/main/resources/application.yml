@@ -23,9 +23,9 @@ line.bot:
 
 spring:
   datasource:
-    url: jdbc:postgresql://dpg-dak9unp5efls73d8au2g-a.oregon-postgres.render.com:5432/demo_8h0a
-    username: sam
-    password: Von3HqJlFaWlebLcSjjdylc0i7IVZpu8
+    url: ${POSTGRESQL_URL}
+    username: ${POSTGRESQL_USERNAME}
+    password: ${POSTGRESQL_PASSWORD}
     driver-class-name: org.postgresql.Driver
 
   jpa:
