@@ -19,6 +19,8 @@ apply plugin: 'org.springframework.boot'
 dependencies {
     implementation project(':line-bot-spring-boot')
     implementation "org.springframework.boot:spring-boot-starter-web"
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.postgresql:postgresql:42.7.8'
 
     testImplementation "org.springframework.boot:spring-boot-starter-test"
 }
