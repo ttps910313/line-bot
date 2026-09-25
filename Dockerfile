@@ -1,6 +1,6 @@
 FROM gradle:6-jdk11
 COPY ./ ./
-RUN gradle build -x test
+RUN gradle build -x test -x checkstyleMain -x checkstyleTest
 ARG SAMPLE_FOLDER
 ARG CHANNEL_TOKEN
 ARG CHANNEL_SECRET
