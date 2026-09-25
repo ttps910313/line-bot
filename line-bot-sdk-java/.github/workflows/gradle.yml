@@ -29,7 +29,7 @@ jobs:
         mkdir -p ~/.gradle
         echo "org.gradle.daemon=false" >> ~/.gradle/gradle.properties
     - run: ./gradlew -v
-    - run: ./gradlew check -xcheckstyleMain -xcheckstyleTest -xspotbugsMain -xspotbugsTest
+    - run: ./gradlew check -xcheckstyleTest -xspotbugsMain -xspotbugsTest
     # Runs all check and its dependency exept which runs on splitted jobs.
 
   checkstyle:
@@ -47,7 +47,7 @@ jobs:
         mkdir -p ~/.gradle
         echo "org.gradle.daemon=false" >> ~/.gradle/gradle.properties
     - run: ./gradlew -v
-    - run: ./gradlew checkstyleMain checkstyleTest --parallel
+    - run: ./gradlew checkstyleTest --parallel
 
   spotbugs:
     name: spotbugs
