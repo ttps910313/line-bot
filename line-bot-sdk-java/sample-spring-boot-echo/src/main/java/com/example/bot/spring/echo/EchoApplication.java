@@ -144,6 +144,13 @@ public class EchoApplication {
                         .append("\n");
             }
 
+            int total = newUser.stream()
+                    .mapToInt(Money::getNumber)
+                    .sum();
+
+            result.append("\n");
+            result.append("招財總結: ").append(total);
+
             return new TextMessage(result.toString());
         }
         return null;
