@@ -18,10 +18,8 @@ package com.example.bot.spring.echo;
 
 import com.example.bot.spring.echo.domain.Money;
 import com.example.bot.spring.echo.repository.MoneyRepository;
-import com.example.bot.spring.echo.service.MoneyService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -32,10 +30,8 @@ import com.linecorp.bot.model.message.Message;
 import com.linecorp.bot.model.message.TextMessage;
 import com.linecorp.bot.spring.boot.annotation.EventMapping;
 import com.linecorp.bot.spring.boot.annotation.LineMessageHandler;
-import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
-import java.sql.Array;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
