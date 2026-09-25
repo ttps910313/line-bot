@@ -131,8 +131,22 @@ public class EchoApplication {
             results.forEach((name, count) ->
                     System.out.println(name + " 招財數量：" + count)
             );
+            List<Money> newUser = repository.findAll();
+            newUser.sort(
+                    Comparator.comparing(Money::getNumber).reversed()
+            );
+            StringBuilder result = new StringBuilder();
+
+            for (Money money : newUser) {
+                result.append(money.getName())
+                        .append("：")
+                        .append(money.getNumber())
+                        .append("\n");
+            }
+
+            return new TextMessage(result.toString());
         }
-        return new TextMessage("已完成更新");
+        return null;
     }
 
     @EventMapping
