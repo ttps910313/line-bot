@@ -73,7 +73,7 @@ public class EchoApplication {
             );
 
             Pattern countPattern = Pattern.compile(
-                    "^招財(?:衛生紙)?\\s*[:：]\\s*(\\d+)\\s*$"
+                    "^招財(?:衛生紙)?\\s*[:：]?\\s*(\\d+)\\s*$"
             );
 
             Map<String, Integer> results = new LinkedHashMap<>();
