@@ -69,7 +69,7 @@ public class EchoApplication {
                     .collect(Collectors.joining("|"));
 
             Pattern namePattern = Pattern.compile(
-                    "^("+ names +")(?:\\s*[（(].*[）)]|洗.*)?$"
+                    "^(" + names + ").*$"
             );
 
             Pattern countPattern = Pattern.compile(
