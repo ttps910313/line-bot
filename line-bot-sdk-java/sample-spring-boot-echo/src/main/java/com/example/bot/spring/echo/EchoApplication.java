@@ -55,7 +55,7 @@ public class EchoApplication {
         if (Objects.isNull(originalMessageText)){
             return null;
         }
-        if (originalMessageText.contains("!") || originalMessageText.contains("！")) {
+        if (originalMessageText.startsWith("!") || originalMessageText.startsWith("！")) {
             List<Money> users = repository.findAll();
             if(users.isEmpty()) {
                 return new TextMessage("請初始化資料");
